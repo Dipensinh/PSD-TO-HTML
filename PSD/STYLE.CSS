@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Montserrat:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,600&family=Poppins:wght@600&family=Roboto:wght@700&display=swap');  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.align{
+    align-items: center;
+}
+nav{
+    align-items: center;    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.jcs{
+    justify-content: space-between;
+}
+.mybar{
+    display: none;
+}
+.col-30{
+    width: 100%;
+    /* border: white solid 3px; */
+}
+.coll-30{
+    width: 100%;
+}
+.col-45{
+    width: 100%;
+}
+.coll-45{
+    width: 100%;
+}
+.sec-one{
+    background-image: url(./IMAGES/BACKGROUND.png); 
+/* height: 700px; */
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.top-header{
+    background-color: #21243d;
+    padding: 10px 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.links ul li{
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+.links  a:hover{
+    color: orange;
+    border: solid 2px orange;
+    border-radius: 100px;
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+}
+.sec-one-text{
+    /* margin: 100px 0; */
+    padding: 100px 0;
+}
+.sec-one-main{
+    padding: 100px 0;
+}
+.sec-five-main{
+    padding: 100px 0 ;
+}
+.sec-one-text h1{
+    font-size: 80px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.sec-one-text p{
+    font-size: 20px;
+    color: white;
+    width: 40%;
+    margin: 30px 0 0 0;
+}
+.order-now button{
+    margin: 30px 0 0 0;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 100px;
+    background-color:  #21243d;
+    color: white;
+}
+.po-rel{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.sec-two{
+    background-color: #21243d;
+    /* height: 700px; */
+    padding: 50px;
+    overflow: hidden;
+}
+.sec-two-text h2{
+    color: white;
+    font-family: 'Montserrat';  
+    /* width: 700px; */
+    font-size: 64px;
+    text-align: center;
+    margin: 0 0 20px 0;   
+}
+.sec-two-text p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    width: 450px ;
+    margin: 0 auto;
+    font-size: 15px;       
+}
+.card .col-30 img{
+    width: 100%;
+    border-radius: 50%;    
+}
+.col-30 h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+.col-30 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.card{
+    padding: 50px 0;
+}
+.card-1{
+    padding: 80px 0;
+}
+.sec-three{
+    overflow: hidden;
+    /* height: 700px; */
+    background-color: #ffd17e;
+}
+.sec-three .col-45 img{
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.sec-three-main{
+    padding: 100px 0;
+}
+.sec-three-main h3{
+    color: #21243d;
+    font-size: 75px;
+    font-family: Montserrat;
+    margin: 0 0 50px 0;
+}
+.sec-three-main p{
+    color: #21243d;
+    font-size: 20px;
+    font-family: Montserrat;
+    margin: 0 0 50px 0;
+}
+.sec-for{
+    overflow: hidden;
+    /* height: 800px; */
+    background-color: #21243d;
+}
+.sec-five{
+    /* height: 800px; */
+    background-color: #ffd17e;
+}
+.sec-for-text h3{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family: Montserrat;
+    margin: 0 0 20px 0;
+}
+.sec-for-text p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    width: 600px;
+    margin: 0 auto;    
+}
+.sec-for-main{
+    padding: 80px 0;
+} 
+.sec-for-store{
+    /* padding: 100px 0; */
+    border: white solid 5px;
+    border-radius: 138px;
+    height: 250px;
+    width: 250px;
+    padding-top: 52px;
+
+}  
+.coll-30 h3{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+}
+.coll-30 P{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+}
+.sec-five{
+    overflow: hidden;
+}
+.sec-five-main  h3{
+    color: #21243d;
+    font-size: 75px;
+    font-family: Montserrat;
+    margin: 0 0 50px 0;
+}
+.sec-five-main  p{
+    color: #21243d;
+    font-size: 20px;
+    font-family: Montserrat;
+    margin: 0 0 50px 0;
+    width: 500px;
+}
+.sec-five .coll-45 img{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+}
+.sec-six-main{
+    padding: 93px 0;
+    /* border: solid 2px white; */
+}
+.sec-six-text{
+    padding:  50px 0;
+    /* border: solid 2px white; */
+}
+.sec-six{
+    background-image:url(./IMAGES/back-2.png) ;
+    /* height: 800px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-six-text img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; 
+    /* padding: 100px 0; */
+}  
+.sec-six-text p{
+    color: white;
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 30px;
+}
+.sec-seven{
+    overflow: hidden;
+}
+.sec-seven-main{
+    padding: 100px 0;
+}
+.sec-six-text h3{
+    color: white;
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 40px;
+}
+.sec-seven-text{
+    padding: 100px 0;
+}
+.sec-seven{
+    background-color: #ffd17e;
+    /* height: 800px; */
+    /* margin: ; */
+}
+.sec-seven-text h3{
+    color:  #21243d;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec-seven-text p{
+    color:  #21243d;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 100px;  
+}
+.input-fl{
+    text-align: center;  
+}
+.input-fl input{    
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 33%;
+    border: none;
+}
+.Subscribe{
+    padding: 10px 50px;
+    background-color:#21243d;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    margin-left: -66px;    
+}
+.sec-eight{
+    background-color: black;
+    /* height: 800px; */
+}
+.sec-eight-main{
+    padding: 100px 0;
+}
+.sec-eight-text h3{
+    color: white;
+    font-size: 32px;
+    font-family: Montserrat;
+    padding: 20px 0;
+}
+.sec-eight-text p{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    width: 400px;
+    padding: 20px 0;
+}
+.icons{
+    padding: 10px 0;
+}
+.icons i{
+    padding: 7px 7px;
+    color:black;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+
+}
+.sec-eight-a{
+    padding: 10px 0;
+}
+.sec-eight-a a{
+    text-decoration: none;
+    color: white;
+    /* padding: 10px 0; */
+}
+.col-30{
+    /* border: solid 2px white;   */
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    /* height: 500px; */
+}
+.footer-main{
+    padding: 100px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-main .cols-30 h3{
+    color: white;
+    font-size: 25px;
+    margin: 0 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-main p{
+    color: white;
+    font-size: 15px;
+    margin: 0 0 15px 0 ;
+    width: 300px;
+    /* margin: 0 auto; */
+}
+.foot-icon i{
+    padding: 6px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.cols-30{
+    margin: 0 auto;
+    width: 100%;
+}
+.cols-60{
+    width: 100%;
+    /* border: solid 2px white; */
+}
+.footer-main .cols-30 a{
+    font-size: 20px;
+    color: white;
+    /* margin: 5px 0; */
+    text-decoration: none;
+
+}
+.footer-main .cols-30 li{
+    margin: 0 0 8px 0;
+    list-style: none;
+}
+.shape-a img{
+    left: 200px;
+    top: -75px;
+}
+.shape-b img{
+    left: 100px;
+    top: 90px;
+    left: 35px;
+}
+.shape-c img{
+    bottom: 100px;
+    left: -90px;    
+}
+.shape-d img{
+    top: -50px;
+    right: -50px;    
+}
+.shape-e img{
+    bottom: 333px;
+    right: -20px;    
+}
+.shape-f img{
+    bottom: 69px;
+    right: 0px;    
+} 
+.shape-A img{
+    left: 88px; 
+    top: 52px;    
+} 
+.shape-B img{
+    top: 86px;
+    left: 637px;
+}
+.shape-C img{
+    right: 30px; 
+    top: 52px;    
+}
+.shape-D img{
+    left:20px; 
+    bottom:50px;    
+}
+.shape-E img{
+    right:-40px; 
+    bottom:50px;    
+}
+.shape-1 img{
+    left: 58px;
+    top: 45px;
+}
+.shape-2 img{
+    /* left: 100px; */
+    top: 227px;
+    left: 100px;
+}
+.shape-3 img{
+    top: 55px;
+    right:55px ;    
+}
+.shape-4 img{
+    bottom: -98px;
+    left: 200px;      
+}
+.shape-5 img{
+    bottom: 50px;
+    right: 300px;    
+}
+.shape-6 img{
+    bottom: 80px;
+    right: 50px;    
+}
+.shape-7 img{
+    left: 283px;
+    top: 100px;
+}
+.shape-8 img{
+    /* left: 100px; */
+    top: 44px;
+    left: 588px;
+}
+.shape-9 img{
+    top: 55px;
+    right:100px;    
+}
+.shape-10 img{
+    bottom: 50px;
+    left: 457px;      
+}
+.shape-11 img{
+    bottom: 50px;
+    right: 80px;
+}
+.shape-12 img{
+    top: 50px;
+    left: 50px;
+
+}
+.shape-13 img{
+   right: 200px;
+   top: 50px;
+}
+.shape-14 img{
+    /* left: 100px; */
+    top: 20px;
+    right: -20px;
+}
+.shape-15 img{
+    left: 50px;
+    bottom: 150px;   
+}
+.shape-16 img{
+    bottom: 10px;
+    left: 600px;      
+}
+.shape-17 img{
+    bottom: 50px;
+    right: 80px;
+}
+/* @media(min-width : 576px){ 
+    .container{
+        width: 520px;
+    }
+    .mybar {
+        display: block;
+    }
+.links{
+        display: none;
+    }
+    .my-first-icon{
+        display:  none;
+    }
+    .sec-one-text p{
+        width: 100%;
+    }
+    .col-30{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .col-45{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .coll-30{
+        width: 52%;
+        margin: 0 auto;
+    }
+    .coll-45{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .sec-seven-text p{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cols-60{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cols-30{        
+        text-align: center;
+    }
+    .footer-main p{
+        width: 100%;
+    }
+}
+@media(min-width:768px){
+    .container{
+        width: 720px;
+    }
+    /* .mybar {
+        display: block;
+    }
+.links{
+        display: none;
+    }
+    .my-first-icon{
+        display:  none;
+    }
+    .col-30{
+        width: 45%;
+        margin: auto;
+    }
+    .col-45{
+        width: 45%;
+    }
+    .coll-45{
+        width: 45%;
+    }
+    .coll-30{
+        width: 45%;
+        margin: 0 auto;
+    } 
+    .cols-30{
+        width: 45%;
+    }  
+    .cols-60{
+        width: 50%;
+    }     
+}
+@media (min-width:992px){
+    .container{
+        width: 920px;
+    }
+    .col-30{
+        width: 30%;
+        /* border: white solid 3px; */
+    }
+    .coll-30{
+        width: 30%;
+    }
+    .col-45{
+        width: 45%;
+    }
+    .coll-45{
+        width: 45%;
+    }
+    .cols-30{
+        width: 30%;
+    }
+    .cols-60{
+        width: 60%;
+    }
+    .mybar{
+        display: none;
+    }
+    .links{
+        display: block;
+    }
+    .my-first-icon{
+        display:  block;
+    }
+@media (min-width:1200px){
+    .container{
+        width: 1150px;
+    }
+    .col-30{
+        width: 30%;
+        /* border: white solid 3px; */
+    }
+    .sec-one-text p{
+        width: 40%;
+    }
+    .coll-30{
+        width: 30%;
+    }
+    .col-45{
+        width: 45%;
+    }
+    .coll-45{
+        width: 45%;
+    }
+    .cols-30{
+        width: 30%;
+    }
+    .cols-60{
+        width: 60%;
+    }
+}  */
+   
+
